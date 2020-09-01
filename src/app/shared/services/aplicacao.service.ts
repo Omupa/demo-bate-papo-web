@@ -4,7 +4,7 @@ import { Aplicacao } from '../models/aplicacao';
 import { ToastrService } from 'ngx-toastr';
 import { Mensagens } from '../mensagens.enum';
 import { Observable, throwError } from 'rxjs';
-import { catchError, retry } from 'rxjs/operators';
+import { catchError } from 'rxjs/operators';
 
 @Injectable({
   providedIn: 'root'
