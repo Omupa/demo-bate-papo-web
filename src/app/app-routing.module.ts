@@ -6,11 +6,10 @@ import { InserirEditarComponent } from './registros/inserir-editar/inserir-edita
 
 
 const routes: Routes = [
+  { path: '**', component: HomeComponent },
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'cadastrar-aplicacao', component: CadastrarAplicacaoComponent },
   { path: 'inserir-editar', component: InserirEditarComponent },
-  
-  { path: '', redirectTo: '/home', pathMatch: 'full' },
-  { path: '**', component: HomeComponent },
 ];
 
 @NgModule({

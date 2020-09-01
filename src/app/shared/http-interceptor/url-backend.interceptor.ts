@@ -14,7 +14,7 @@ export class UrlBackendInterceptor implements HttpInterceptor {
 
   intercept(request: HttpRequest<any>, next: HttpHandler): Observable<HttpEvent<any>> {
     const requisicaoComUrlBrackend = request.clone({
-      url: `http://localhost:8080/api/${request.url}`
+      url: `${request.url}`
     });
     return next.handle(requisicaoComUrlBrackend);
   }
