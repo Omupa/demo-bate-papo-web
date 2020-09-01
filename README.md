@@ -1,27 +1,51 @@
-# DevWeb
+# demo-bate-papo-universitarios
+> Demo criada para deixar como material de estudos e desafios para universitários do IFGoiano - Urutaí
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.12.
+### Instruções
+Neste projeto temos dois módulos (REST e WEB).
 
-## Development server
+#### Responsabilidade de cada módulo:
+1. [**REST**][4]: Disponibilizar serviços REST, manipular CRUD em banco de dados. As regras de negócio da aplicação deve fica aqui.
+2. [**WEB**][1]: Disponibilizar interface gráfica na web que realiza consultas (request) para os serviços do modulo REST e apresenta os dados de forma visual.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Instruções para cada módulos podem ser encontradas no README.md de cada um.
 
-## Code scaffolding
+#### Dependências:
+1. Git [download][2]: Encontre instruções [aqui][3].
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Fontes e materiais de estudos
 
-## Build
+#### Java
+1. [Baeldung][7]: ecosistema Java/Spring
+2. [Java efetivo][11]: as melhores práticas no desenvolvimento Java
+3. DevDojo [site][12] ou [YouTube][13]: tutoriais de alta qualidade para Java **FREE BR** :heart:
+4. [Spring Guides][15]: 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+#### Angular
+1. [Loiane Groner][14]: curso **FREE BR** :heart:
 
-## Running unit tests
+#### Arquitetura
+1. [FullCycle][5]: arquitetura "moderna" (possui canal BR no YouTube)
+2. [Manual do arquiteto moderno][8]: livro no GitHub
+3. [InfoQ BR][9]: site com as tendencias em TI na versão BR. O gringo tem mais conteúdos :smiley:
+4. [DZone][10]: site com as tendencias em TI
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+#### Exemplo
+1. [RealWorld][6]: o mesmo aplicativo escrito com vários frameworkd tanto nos serviços REST quanto WEB e podemos rodar qualquer backend com qualquer frontend.
 
-## Running end-to-end tests
+[1]: https://github.com/Omupa/demo-bate-papo-universitarios/blob/master/dev-web/README.md
+[2]: https://git-scm.com/
+[3]: https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet
+[4]: https://github.com/Omupa/demo-bate-papo-universitarios/tree/master/dev-rest
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+[5]: https://fullcycle.com.br/
+[6]: https://github.com/gothinkster/realworld
+[7]: https://www.baeldung.com/
+[8]: https://github.com/otaviojava/manual-arquiteto-moderno
+[9]: https://www.infoq.com/br/
+[10]: https://dzone.com/
+[11]: https://www.thefinestartist.com/effective-java/
+[12]: http://devdojo.academy/
+[13]: https://www.youtube.com/c/DevDojoBrasil/playlists
+[14]: https://www.youtube.com/watch?v=tPOMG0D57S0&list=PLGxZ4Rq3BOBoSRcKWEdQACbUCNWLczg2G
+[15]: https://spring.io/guides
