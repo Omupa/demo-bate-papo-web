@@ -1,5 +1,5 @@
 import { Component, OnInit } from "@angular/core";
-import { Registro } from "../shared/models/Registro";
+import { Registro } from "../shared/models/registro";
 import { RegistroService } from "../shared/services/registro.service";
 
 @Component({

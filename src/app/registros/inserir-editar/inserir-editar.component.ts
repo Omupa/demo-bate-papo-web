@@ -1,6 +1,6 @@
 import { Component, OnInit, OnDestroy } from "@angular/core";
 import { HeaderService } from "src/app/header/header.service";
-import { Registro } from "src/app/shared/models/Registro";
+import { Registro } from "src/app/shared/models/registro";
 import { RegistroService } from "src/app/shared/services/registro.service";
 import { Router, ActivatedRoute } from "@angular/router";
 import { ToastrService } from "ngx-toastr";

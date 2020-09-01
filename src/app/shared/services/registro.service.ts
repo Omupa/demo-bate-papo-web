@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Registro } from '../models/Registro';
+import { Registro } from '../models/registro';
 import { Observable } from 'rxjs';
 
 @Injectable({
