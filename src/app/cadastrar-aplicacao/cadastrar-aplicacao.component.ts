@@ -36,6 +36,10 @@ export class CadastrarAplicacaoComponent implements OnInit, OnDestroy {
     });
   }
 
+  salvarAplicacao2() {
+    
+  }
+
   salvarAplicacao() {
     if (this.validarCadastro()) {
       this.aplicacaoService.salvar(this.aplicacao).subscribe((response) => {

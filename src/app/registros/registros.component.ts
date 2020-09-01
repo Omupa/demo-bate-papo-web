@@ -25,8 +25,7 @@ export class RegistrosComponent implements OnInit {
   deletar(registro: Registro) {
     if (registro && registro.id) {
       this.service
-        .deletar(registro)
-        .subscribe((response) => this.listarRegistros());
+        .deletar(registro);
     }
   }
 }
