@@ -1,4 +1,4 @@
-# demo-bate-papo-universitarios
+# demo-bate-papo
 > Demo criada para deixar como material de estudos e desafios para universitários do IFGoiano - Urutaí
 
 ### Instruções
