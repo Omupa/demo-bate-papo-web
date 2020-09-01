@@ -33,10 +33,10 @@ Instruções para cada módulos podem ser encontradas no README.md de cada um.
 #### Exemplo
 1. [RealWorld][6]: o mesmo aplicativo escrito com vários frameworkd tanto nos serviços REST quanto WEB e podemos rodar qualquer backend com qualquer frontend.
 
-[1]: https://github.com/Omupa/demo-bate-papo-universitarios/blob/master/dev-web/README.md
+[1]: https://github.com/Omupa/demo-bate-papo-web/blob/master/INSTRUCOES.md
 [2]: https://git-scm.com/
 [3]: https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet
-[4]: https://github.com/Omupa/demo-bate-papo-universitarios/tree/master/dev-rest
+[4]: https://github.com/Omupa/demo-bate-papo-rest
 
 [5]: https://fullcycle.com.br/
 [6]: https://github.com/gothinkster/realworld
