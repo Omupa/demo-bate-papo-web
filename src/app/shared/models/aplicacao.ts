@@ -1,4 +1,4 @@
 export class Aplicacao {
     nome?: string;
-    primaryColor?: string;
+    descricao?: string;
 }

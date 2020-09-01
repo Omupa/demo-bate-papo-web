@@ -30,7 +30,7 @@ export class AppComponent implements OnInit {
   }
 
   private verificarInicioDaAplicacao(aplicacao: Aplicacao) {
-    if (!aplicacao || !aplicacao.nome || !aplicacao.primaryColor) {
+    if (!aplicacao || !aplicacao.nome || !aplicacao.descricao) {
       this.irParaCadastrarAplicacao();
     } else {
       this.irParaHome();
