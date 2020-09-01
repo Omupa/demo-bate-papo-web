@@ -1,0 +1,11 @@
+<div class="row mt-4" *ngIf="headerService.show">
+    <div class="col-8">
+        <div class="ml-1">
+            <h2 class="mb-0 font-weight-bold">{{ aplicacao.nome }}</h2>
+            <small class="text-monospace">{{ aplicacao.primaryColor }}</small>
+        </div>
+    </div>
+    <div class=" col-4 d-flex justify-content-end align-items-center ">
+        <button type="button " class="btn btn-outline-primary " [routerLink]="[ '/cadastrar-aplicacao'] ">Modificar aplicação</button>
+    </div>
+</div>

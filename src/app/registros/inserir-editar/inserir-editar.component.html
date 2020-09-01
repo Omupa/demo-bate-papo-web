@@ -1,0 +1,29 @@
+<div class="container" style="height: 100vh;">
+    <div class="row h-100">
+        <div class="col-12 my-auto">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Inserir registro</h5>
+                    <div class="col-12">
+                        <form (ngSubmit)="salvarAtualizar()">
+                            <div class="form-group">
+                                <label for="appNome">Título</label>
+                                <input type="text" class="form-control" id="appNome" name="appNome" [(ngModel)]="registro.titulo" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="appCor">Descrição</label>
+                                <input type="text" class="form-control" id="appCor" name="appCor" [(ngModel)]="registro.descricao" required>
+                            </div>
+                            <div *ngIf="ehAlteracao()">
+                                <span class="text-muted">Data inclusão: {{ registro.inclusao | date: 'dd/MM/yyyy hh:mm:ss' }}</span>
+                            </div>
+                            <div class="col-12 d-flex justify-content-end">
+                                <button type="submit" class="btn btn-primary">{{ labelButton() }}</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
