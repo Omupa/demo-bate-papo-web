@@ -51,7 +51,7 @@ export class CadastrarAplicacaoComponent implements OnInit, OnDestroy {
   }
 
   validarCadastro(): boolean {
-    if (this.aplicacao && this.aplicacao.nome && this.aplicacao.primaryColor) {
+    if (this.aplicacao && this.aplicacao.nome && this.aplicacao.descricao) {
       return true;
     } else {
       this.toaster.info(Mensagens.CAMPOS_APLICACAO_OBRIGATORIOS);
