@@ -9,6 +9,7 @@ import { RegistroService } from "../shared/services/registro.service";
 })
 export class RegistrosComponent implements OnInit {
   registros: Registro[] = [];
+  registrosHtml: Registro[] = [];
 
   constructor(private service: RegistroService) {}
 
